@@ -1,0 +1,55 @@
+body {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 125px;
+  margin-bottom: 30px;
+}
+
+#query {
+  text-align: center;
+}
+
+.list-group-item {
+  margin-top: 15px;
+}
+
+.searchLink {
+  text-decoration: none;
+  color: #000000;
+}
+
+.searchLink:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.list-group-item:hover {
+  border-left-width: 5px;
+  border-left-style: solid;
+}
+
+#output {
+  margin-top: 75px;
+}
